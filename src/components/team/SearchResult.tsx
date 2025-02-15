@@ -34,11 +34,11 @@ const SearchResult = ({ user, reset }: SearchResultProps) => {
 
   return (
     <>
-      <p className="mt-10 text-center font-bold">Resultado:</p>
-      <div className="flex justify-between items-center">
+      <p className="mt-10 font-bold text-center">Resultado:</p>
+      <div className="flex items-center justify-between">
         <p>{user.name}</p>
         <button
-          className="text-purple-600 hover:bg-purple-100 px-10 py-3 font-bold cursor-pointer"
+          className="px-10 py-3 font-bold text-purple-600 cursor-pointer hover:bg-purple-100"
           onClick={handleAddUserToProject}
         >
           Agregar al Proyecto
