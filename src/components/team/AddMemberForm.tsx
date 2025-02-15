@@ -63,7 +63,7 @@ const AddMemberForm = () => {
 
         <input
           type="submit"
-          className="w-full p-3 text-xl font-black text-white cursor-pointer  bg-fuchsia-600 hover:bg-fuchsia-700"
+          className="w-full p-3 text-xl font-black text-white cursor-pointer bg-fuchsia-600 hover:bg-fuchsia-700"
           value="Buscar Usuario"
         />
       </form>
